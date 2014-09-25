@@ -1,10 +1,13 @@
 language: ruby
 rvm:
-- 2.1.2
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
 deploy:
   provider: heroku
   api_key:
-    secure: T/rkhibwg2EBQhDVff/E04HWIJVivfR6vNq7aGQUq2cMizDQgi4657ykyQxljHmyrdRFdY7DuPc76qj4Zo+wTxH9OiZPrDHaxacxn8Kd6xPH4asZDsL9oiFf8dEVWS2XOIPwDHLykHr4LIcxoiepqlpGPQ1UREi/DynUJ6umgaY=
-  app: mighty-river-7140
+    secure: klL4kMhFifI/DY/oJhldk1xEGsiYoFCw9RXJHKIFsD/n/YJ22f2ZyXh8G7yG+ydhP4stdJBVDQkDj8S6dPFx33vNEXkGAVNFxjMBSVApeMajmK4IqjoOa25YLNPqHV6liUaIy8CJ3Vd+FZyImdhllutZXhRt5A0Fqewxl9byBuc=
+  app: shrouded-gorge-1561
   on:
-    repo: ryuichiueda/rakuten_enpit_example
+    repo: kkpb/rakuten_enpit_example
